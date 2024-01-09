@@ -443,7 +443,7 @@ doc["threejsblock"].bind("click", threejsblock.do)
 <p>Y:\portablegit\usr\bin\openssl s_client -connect [Windows 11's IPv6 address]:8445 -tls1_3</p>
 <p>檢查, 發現目前採用 context = ssl.SSLContext(ssl.PROTOCOL_TLS_SERVER) 設定中的 <span>ssl.PROTOCOL_TLS_SERVER, 採用的認證版本可為 tls 1.2 與 1.3 版, 但是</span>如同<a href="https://learn.microsoft.com/en-us/answers/questions/708734/tls-1-3-doesnt-work-on-windows-11-through-schannel">這裡的敘述</a>, 伺服器發出的 tls 1.3 版可以被 Windows 10 操作系統接受, 但卻無法在 Windows 11 操作系統中正確連結採用上述程式碼的靜態網頁伺服器.</p>
 <p>另外, 透過 Windows 11 搜尋輸入 inetcpl.cpl 可以發現 tls 1.3 已經啟用. 因此目前無法得知為何 start_static 啟動後, 無法在 Windows 11 連線到虛擬的系統靜態網站.</p>
-<h1>W8</h1>
+<h2>W8</h2>
 <p>針對 Coppeliasim 4.6.0 版的推出:</p>
 <p>CoppeliaSim 於 2023.10.21 推出<span> </span><a href="https://www.coppeliarobotics.com/helpFiles/en/versionInfo.htm">4.6.0 版</a>. (因為更改不多, 目前可以沿用 4.5.1 rev4, 但仍必須關注 CoppeliaSim 逐步強化 Python scripting 的趨勢(<a href="https://www.coppeliarobotics.com/helpFiles/en/luaPythonDifferences.htm">1</a>,<span> </span><a href="https://www.coppeliarobotics.com/helpFiles/en/coppeliaSimLibrary.htm#pythonClient">2</a>), 其目的在於能夠更便於在機電整合場景系統中, 導入更多的 AI 相關 Training)</p>
 <p><a href="https://www.coppeliarobotics.com/helpFiles/en/plugins.htm">plugin</a><span> </span>架構更新, 可加載或卸載 plugin</p>
