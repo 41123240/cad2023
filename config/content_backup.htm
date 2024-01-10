@@ -673,7 +673,7 @@ doc["threejsblock"].bind("click", threejsblock.do)
 <p>將 cad2023 倉儲資料取到 s1511.cycu.org 帳號下, 若使用 SSH 協定且位於只有 IPv6 網路協定, 則分別牽涉以 SSH 及 https 協定連線到 github.com 的設定.</p>
 <p>其中所謂運用 SSH 協定與 github.com 連線, 運用在 git clone --recurse-submodules<span> </span><a href="mailto:git@github.com:%E5%B8%B3%E8%99%9F/cad2023.git">git@github.com:帳號/cad2023.git</a><span> </span>因為其流程是利用 SSH 協定以 git 作為帳號登入到 session 名稱為 github.com 的連線主機 (即 config 中的 Hostname 設定), 能不能遠端登入則取決於 github.com session (即 config 設定檔案中的 Host 名稱) 後面的帳號是否已經登錄與目前 .ssh/id_rsa 所對應的 public key.</p>
 <p>至於在純 IPv6 網路下的 s1511.cycu.org 其 https 所需的 proxy 設定, 已經由管理者設定於 /etc/environment 中, 因此所有使用者都無需設定.</p>
-<h1>W9~W10</h1>
+<h2>W9~W10</h2>
 <p>w10 網路狀態: 目前似乎從學校電腦無法使用 hinet 的 IPv6 DNS 伺服器. 驗證方式: 在命令列中輸入 nslookup, 然後以 server 2001:b000:168::1 指令將 DNS 設為中華電信的符號名稱伺服器, 然後查詢 google.com.</p>
 <p>因應方法: 使用機械設計系所建立的 DNS 伺服器, 140.130.17.3 以及<span> </span><span>2001:288:6004:17::3</span></p>
 <p>無法使用中華電信 DNS 原因: 應該是學校網管修改設定, 禁止跨區設定 DNS 伺服器.</p>
