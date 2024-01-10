@@ -143,6 +143,46 @@ img.add_border {
           
         </header>
     <div id="tipue_search_content">W15 << <a href='W15.html'>Previous</a> <a href='零組件繪圖.html'>Next</a> >> 零組件繪圖<br /><h1>coppeliasim</h1>
+<p>原始碼:</p>
+<p><a href="https://github.com/CoppeliaRobotics">https://github.com/CoppeliaRobotics</a> </p>
+<p>核心程式庫:<span> </span><a href="https://github.com/CoppeliaRobotics/CoppeliaSimLib">https://github.com/CoppeliaRobotics/CoppeliaSimLib</a></p>
+<p>採商業與教育版授權原始碼:</p>
+<p><a href="https://github.com/CoppeliaRobotics/simGeom">https://github.com/CoppeliaRobotics/simGeom</a></p>
+<p><a href="https://github.com/CoppeliaRobotics/simIK">https://github.com/CoppeliaRobotics/simIK</a></p>
+<p><a href="https://github.com/CoppeliaRobotics/coppeliaGeometricRoutines">https://github.com/CoppeliaRobotics/coppeliaGeometricRoutines</a></p>
+<p><a href="https://github.com/CoppeliaRobotics/coppeliaKinematicsRoutines">https://github.com/CoppeliaRobotics/coppeliaKinematicsRoutines</a></p>
+<p>範例場景:<span> </span><a href="https://github.com/CoppeliaRobotics/scenes">https://github.com/CoppeliaRobotics/scenes</a></p>
+<p>範例模型:<span> </span><a href="https://github.com/CoppeliaRobotics/models">https://github.com/CoppeliaRobotics/models</a></p>
+<p>使用者手冊:</p>
+<p><a href="https://www.coppeliarobotics.com/helpFiles/index.html">https://www.coppeliarobotics.com/helpFiles/index.html</a><span> </span>(以 Google<span> </span><a href="https://www-coppeliarobotics-com.translate.goog/helpFiles/index.html?_x_tr_sl=en&amp;_x_tr_tl=zh-TW">翻譯為中文</a>)</p>
+<p><a href="https://mde.tw/pjcopsim">https://mde.tw/pjcopsim</a><span> </span>(<a href="https://github.com/mdecycu/pjcopsim">倉儲</a>,<span> </span><a href="https://mde.tw/content/pjcopsim.html">開發專案說明</a>)</p>
+<p>ZeroMQ Remote API:</p>
+<p><a href="https://www.coppeliarobotics.com/helpFiles/en/zmqRemoteApiOverview.htm">https://www.coppeliarobotics.com/helpFiles/en/zmqRemoteApiOverview.htm</a></p>
+<p>Stepped mode:<span> </span><a href="https://www.coppeliarobotics.com/helpFiles/en/simulation.htm#stepped">https://www.coppeliarobotics.com/helpFiles/en/simulation.htm#stepped</a></p>
+<p>Reference:</p>
+<p><a href="http://wcm.cycu.org:88/github/cd2021/content/V-rep.html">http://wcm.cycu.org:88/github/cd2021/content/V-rep.html</a><span> </span>(只能在系上 IPv6 網段中連結)</p>
+<p>利用 Leo Editor 解讀 CoppeliaSim 完整的 XML 檔案格式,<span> </span><a href="https://groups.google.com/g/leo-editor">Leo Editor Google Group</a></p>
+<p>因為 Python 3.12.0 環境下 Leo Editor 還無法正常透過 pip 安裝, 因此必須手動安裝 PyQt5 之後, 再使用 pip install leo, 所完成的 Python 3.12.0: <a href="https://nfuedu-my.sharepoint.com/:u:/g/personal/yen_nfu_edu_tw/EYf6RiAqXAFJllAizi_-iZ4BT9ZEn8-bT2V8TVjd9p446Q?e=NSCciC">Python312_leo_664_PyQt5.7z</a><span> </span>(需要下載密碼)</p>
+<hr/>
+<p>因為 CoppeliaSim 4.5.1 之後的版本, 將設定存入操作系統的 <span>C:\users\%USERNAME%\AppData\Roaming\Coppeliasim 目錄中, 因此若使用過程曾經修改設定, 必須將設定複製到可攜環境的對應目錄中, 之後若需延續先前的設定, 就必須在可攜系統啟動時, 先將設定從可攜系統轉存進入操作系統的對應目錄, 批次檔案指令如下 (假設可攜系統使用 home_ipv6 目錄儲存 AppData 內容):</span></p>
+<div>
+<div class="syntaxhighlighter js" id="highlighter_696674">
+<table border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td class="gutter">
+<div class="line number1 index0 alt2">1</div>
+</td>
+<td class="code">
+<div class="container">
+<div class="line number1 index0 alt2"><code class="js plain">Xcopy %Disk%:\home_ipv6\AppData\Roaming\Coppeliasim C:\users\%USERNAME%\AppData\Roaming\Coppeliasim /E /H /C /I /Y</code></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
 <br />W15 << <a href='W15.html'>Previous</a> <a href='零組件繪圖.html'>Next</a> >> 零組件繪圖</div>
         
     <!-- footer -->
