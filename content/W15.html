@@ -2,7 +2,7 @@
         <head>
         <title>cmsite</title>
         <meta charset="utf-8">
-<meta property="head" content="H3">
+<meta property="head" content="H2">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700,900" rel="stylesheet">
         <link rel="stylesheet" href="./../cmsimde/static/chimper/fonts/icomoon/style.css">
@@ -142,29 +142,40 @@ img.add_border {
           </div>
           
         </header>
-    <div id="tipue_search_content">W4~W5 << <a href='W4~W5.html'>Previous</a> <a href='autodesk.html'>Next</a> >> autodesk<br /><h1>ptc</h1>
-<div class="container"><nav>
-<div id="tipue_search_content">
-<p><a href="https://www.ptc.com/">PTC</a><span> </span>公司目前擁有 Creo 與<span> </span><a href="https://www.onshape.com/">Onshape</a><span> </span>等兩套常見的電腦輔助機械設計套件. Creo 前身為著名的參數設計繪圖鼻祖 Pro/Engineer, 而<span> </span><a href="https://www.onshape.com/">Onshape</a><span> </span>則由原創 SOLIDWORKS 的開發者所建立的全雲端電腦輔助機械設計服務.</p>
-<p>Creo for students:<span> </span><a href="https://www.ptc.com/en/products/education/free-software/creo-college-download">https://www.ptc.com/en/products/education/free-software/creo-college-download</a></p>
-<p>學生版安裝授權, 統一透過 product code: BK100908EDSTUDENTEDUNI 取得, 但必須在 IPv4 連網時才能取得授權檔案: BK100908EDSTUDENTEDUNI_license.dat, 授權使用期限為一年.</p>
-<p><img alt="" height="228" src="https://mde.tw/cadnote/images/ptc_creo_10.0_student_version.png" width="400"/></p>
-<p>已經建立帳號者:<span> </span><a href="https://community.ptc.com/t5/PTC-Education-Forum/bd-p/PTCEducation">登入 PTC education 網站</a></p>
-<p><a href="https://apps.ptc.com/schools/references/install_creo10_schools_standard.pdf">https://apps.ptc.com/schools/references/install_creo10_schools_standard.pdf</a> </p>
-<p>使用管理者開啟 parametric.psf 加入: ENV=PRO_LANG=english, 表示要使用英文介面. 使用 Chinese Simplified 代號為 chs, 使用 Chinese Traditional 代號為 cht.</p>
-<p>安裝 Creo 位置: C:\Program Files\PTC\Creo 10.0.0.0\Parametric\bin</p>
-<p>免費使用的教育版授權檔案為: BK100908EDSTUDENTEDUNI_license.dat</p>
-<p>以下為安裝 Creo 10 的過程與說明 (<a href="https://mde.tw/cadnote/downloads/wink_html.txt">wink_html.txt</a>):</p>
-<div class="winkVideoContainerClass"><video autoplay="autoplay" class="winkVideoClass" controls="controls" data-dirname="/cmsimde/static" data-mce-fragment="1" data-varname="winkVideoData_creo10" height="630" muted="true" width="1008"></video></div>
-<p>Onshape for education:<span> </span><a href="https://www.onshape.com/en/education/">https://www.onshape.com/en/education/</a></p>
-<br/>autodesk &lt;&lt;<span> </span><a href="https://mde.tw/cadnote/content/autodesk.html">Previous</a><span> </span><a href="https://mde.tw/cadnote/content/w6-w7.html">Next</a><span> </span>&gt;&gt; w6-w7</div>
+    <div id="tipue_search_content">W13-W14 << <a href='W13-W14.html'>Previous</a> <a href='零組件繪圖.html'>Next</a> >> 零組件繪圖<br /><h1>W15</h1>
+<p><span>操作考試</span>: 請利用自選的電腦輔助設計套件建立<span> </span><a href="https://mde.tw/cadnote/content/pms.html">https://mde.tw/cadnote/content/pms.html</a>  中的零組件 (尺寸與操控內容請自訂), 並加入感測器與適當的設計元件或機構, 說明預計如何令其在接上外部電源後, 能夠讓系統中的鋼球在軌道上進行永動模擬.</p>
+<p>完成零組件與可行系統設計後, 請將零組件轉入 CoppeliaSim 建立模擬場景, 並在分組中自選另一名組員, 經過彼此討論後, 請利用 ZMQ remote API Python 程式互相控制對方的永動模擬場景, 以便完成兩人一組的兩則永動機模擬操作 (若找不到協同對象, 請自行用所分配到的 IPv6 位址進行控制模擬).</p>
+<p>完成上述兩人一組的現場操作考試後, 請利用 Wink 製作 MP4 操作影片, 說明從零組件繪圖至完成互動控制模擬後的各階段細節, 並將上述各項內容放入個人倉儲與網站 (頁面標題請用第一階設定, 名稱為 exam).</p>
+<p>step1: 基本零組件設計繪圖.</p>
+<p>step2: 施力機構設計, 納入軌道下方控制盒中.</p>
+<p>step3: 將軌道、鋼球與簡化後的控制盒輸入 CoppeliaSim.</p>
+<p>step4: 配合控制系統設計, 納入感測器與施力機構或系統.</p>
+<p>step5: 在 localhost 以 IPv6 ZMQ remote API Python 程式, 配合感測器作動對鋼球施力.</p>
+<p>step6: 跨網路對協同組員的場景進行控制模擬.</p>
+<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" data-mce-fragment="1" frameborder="0" height="315" src="https://www.youtube.com/embed/O-FKcK0vzgY?si=Ci-reYmxMRDYzUZN" title="YouTube video player" width="560"></iframe></p>
+<p>截至 2023.12.22 Replit 仍可用來維護 Github 倉儲中的對應網站內容, 且可透過下列 html 將 Repl 嵌入網頁中:</p>
+<div>
+<div class="syntaxhighlighter html" id="highlighter_358783">
+<table border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td class="gutter">
+<div class="line number1 index0 alt2">1</div>
+</td>
+<td class="code">
 <div class="container">
-<div class="row pt-3 mx-auto">
-<p>Copyright ©2023 All rights reserved | This template is made with<span> </span><i aria-hidden="true" class="icon-heart"></i><span> </span>by<span> </span><a href="https://colorlib.com/" target="_blank">Colorlib</a></p>
+<div class="line number1 index0 alt2"><code class="html plain">&lt;</code><code class="html keyword">iframe</code> <code class="html color1">frameborder</code><code class="html plain">=</code><code class="html string">"0"</code> <code class="html color1">width</code><code class="html plain">=</code><code class="html string">"100%"</code> <code class="html color1">height</code><code class="html plain">=</code><code class="html string">"400"</code> <code class="html color1">src</code><code class="html plain">=</code><code class="html string">"https://replit.com/@wcms/cadnote?embed=true"</code><code class="html plain">&gt;&lt;/</code><code class="html keyword">iframe</code><code class="html plain">&gt;</code></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
 </div>
 </div>
-</nav></div>
-<br />W4~W5 << <a href='W4~W5.html'>Previous</a> <a href='autodesk.html'>Next</a> >> autodesk</div>
+<p><iframe data-mce-fragment="1" frameborder="0" height="400px" src="https://replit.com/@wcms/cadnote?embed=true" width="100%"></iframe></p>
+<p><span>例如要查詢埠號 9210 埠號的使用情形, 指令為 </span><span>lsof -i :9210, 其中 ls 為 list, of 為 open file, -i 中的 i 為 internet, :9210 表示要求列出與 port 9210 有關 internet 使用相關的資料.</span></p>
+<p>利用 s.cycu.org 維護 github.com 上的倉儲與網站內容的說明在: <a href="https://mde.tw/cadnote/content/w8.html">https://mde.tw/cadnote/content/w8.html</a> </p>
+<br />W13-W14 << <a href='W13-W14.html'>Previous</a> <a href='零組件繪圖.html'>Next</a> >> 零組件繪圖</div>
         
     <!-- footer -->
       <div class="container">
